@@ -68,7 +68,7 @@
 
             try {
                 const genAI = new GoogleGenerativeAI(API_KEY);
-                const aiModel = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+              const aiModel = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 
                 const promptText = `Meu carro é um ${model} com ${km} km rodados. Com base nas suas instruções de especialista, o que devo revisar agora? Gere um relatório curto e um JSON de status.`;
 
